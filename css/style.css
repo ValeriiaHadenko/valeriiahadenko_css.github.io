@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);    background-position: top center;
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+#container{
+	margin: 0 auto;
+	width: 90%;
+}
+.blog{
+    display: flex;
+    padding: 100px 0;
+    width: 100%;
+}
+.img-blog, .text-blog{
+    width:50%;
+}
+.img-blog{
+    display: flex;
+    justify-content: center;
+}
+

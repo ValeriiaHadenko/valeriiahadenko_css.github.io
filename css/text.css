@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Avenir;
+    src: url(/fonts/Avenir-Font/AvenirLTStd-Roman.otf);
+}
+span{
+    font-size: 14px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
