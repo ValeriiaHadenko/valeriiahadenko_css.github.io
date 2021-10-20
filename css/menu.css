@@ -20,6 +20,13 @@
 }
 
 .menu a:hover{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transition: .5s ease-out;
+    transition-delay: 0.1s;
+}
+
+#active{
+    background-color: rgb(27, 27, 27);
     color: white;
 }

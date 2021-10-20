@@ -13,10 +13,39 @@ body{
     width: 100%;
 }
 .img-blog, .text-blog{
-    width:50%;
+    width: 50%;
 }
 .img-blog{
     display: flex;
     justify-content: center;
 }
 
+.article{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.article img{
+    margin:  0 40px;
+}
+
+.article ul{
+    display: flex;
+    flex-direction: column;
+}
+#school{
+    padding-top: 80px;
+}
+
+.article .clock{
+    box-shadow: none;
+}
+
+.particl{
+    padding-top: 200px;;
+    width: 500px;
+}
+.article-text{
+    padding: 30px 0;
+    width: 700px;
+}
